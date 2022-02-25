@@ -1,0 +1,95 @@
+.container1{
+
+    height: 900px;
+}
+.box{
+    background-image: linear-gradient(rgb(187, 255, 0),white);
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.box2{
+    background-image: radial-gradient(blue,white);
+    height: 200px;
+    width: 200px;
+    float: right;
+    clear: left;
+}
+
+.box3{
+  
+    background-image: linear-gradient(rgb(37, 179, 136),rgb(90, 84, 84));
+    height: 200px;
+    width: 200px;
+    float: left;
+    clear: right;
+}
+.box4{
+    background-image: radial-gradient(blue,black);
+    height: 200px;
+    width: 200px;
+    /* clear: left; */
+    float: right;
+    clear: left;
+    color: antiquewhite;
+}
+.box5{
+    background-image: linear-gradient(rgb(18, 19, 18),rgb(247, 10, 10));
+    height: 200px;
+    width: 200px;
+    clear: left;
+    float: right;
+    color: antiquewhite;
+    float: left;
+    clear: right;
+}
+
+
+
+.container2{
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid black;
+ 
+}
+.cart1{
+    background-color: coral;
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.cart2{
+    background-color: crimson;
+    box-sizing: content-box;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.container3{
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid red ;
+}
+.square1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    font-weight: 500;
+    
+}
+.square2{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    font-weight: 500;
+    position: absolute;
+    top: 1950px;
+    left: 50px;
+    z-index: 2;
+
+
+}
